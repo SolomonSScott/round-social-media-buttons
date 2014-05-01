@@ -69,12 +69,32 @@ Yes, in your stylesheet change the background color for the following classes:
 
 == Changelog ==
 
+= 2.0 =
+* Plugin styles now override theme styles
+
+= 1.5 =
+* Fixed missing CSS.
+* Bug fixes.
+
+= 1.2 =
+* Fixed missing image on settings page.
+* Links now open in a new tab.
+
 = 1.0 =
 * Intial launch of the plugin.
 * Display round social media buttons.
 
 
 == Upgrade Notice ==
+
+= 2.0 =
+Plugin styles now override theme styles
+
+= 1.5 =
+Fixed missing CSS.
+
+= 1.2 =
+Fixed missing image on settings page and links now open in a new tab. 
 
 = 1.0 =
 This is the first version of the plugin there are no updates yet.
