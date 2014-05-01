@@ -38,48 +38,55 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+[class^="icon-"],
+ [class*=" icon-"] {
+  display: inline-block !important;
+ }
+
 .icon-facebook:before {
-  content: "a";
+  content: "a" !important;
 }
 .icon-youtube-alt:before {
-  content: "b";
+  content: "b" !important;
 }
 .icon-twitter-alt:before {
-  content: "c";
+  content: "c" !important;
 }
 .icon-tumblr:before {
-  content: "d";
+  content: "d" !important;
 }
 .icon-linkedin-alt:before {
-  content: "e";
+  content: "e" !important;
 }
 .icon-google-plus:before {
-  content: "f";
+  content: "f" !important;
 }
 .icon-instagram:before {
-  content: "g";
+  content: "g" !important;
 }
 .icon-pinterest:before {
-  content: "h";
+  content: "h" !important;
 }
 
 /* GENERAL BUTTON STYLES */
 
 .social_media_buttons_frontend li {
-  display: inline-block;
-  margin-left: 10px;
-  margin-bottom: 20px;
+  display: inline-block !important;
+  margin-left: 10px !important;
+  margin-bottom: 10px !important;
+  list-style-type: none !important;
+  border: 0 !important;
 }
 
 .social_media_buttons_frontend li a:link,
 .social_media_buttons_frontend li a:visited {
-  text-decoration: none;
+  text-decoration: none !important;
   font-size: 1.6em;
   background-color: #000;
   color: #fff;
   padding: 10px 10px 6px 10px;
   margin-bottom: 10px;
-  border-radius: 60%;
+  border-radius: 60% !important;
 }
 
 .social_media_buttons_frontend li a.icon-facebook {
@@ -132,6 +139,7 @@
 .social_media_buttons_frontend li a.icon-tumblr:active {
   color: #fff;
   opacity: 0.8;
+  text-decoration: none !important;
 }
 
 
